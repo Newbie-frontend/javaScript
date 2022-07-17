@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2vw;
+    margin: 1.5vw 0;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1.5vw 0;
+}
+
+.inputStyle {
+    width: 13.3vw;
+    height: 2.5vw;
+    border: 1px solid #ef9a9a;
+    font-size: 1.1vw;
+    padding-left: 0.5vw;
+    color: rgb(95, 95, 95);
+}
+
+.inputStyle::placeholder {
+    color: rgb(209, 206, 206);
+}
+
+.color {
+    background-color: #ef9a9a;
+    color: white;
+}
+
+.inputStyle:focus {
+    outline: none;
+}
+
+.leaderboardDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.mainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vw;
+    width: 100%;
+    background-color: #ef9a9a;
+    margin: 0.2vw 0;
+    color: rgb(65, 65, 65);
+    font-weight: 600;
+}
+
+.nameTime {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 3vw;
+    width: 18vw
+}
+
+.circleButton {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 65, 65);
+    font-size: 1.1vw;
+    margin: 0 0.2vw;
+    cursor: pointer;
+    border: none;
+}
+
+.circleButton:hover {
+    background-color: rgb(184, 250, 123);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10vw;
+    height: 4vw;
+    margin: 0 3vw 0 0;
+}
+
+.deleteButton {
+    color: rgb(226, 25, 25)
+}
+.firstLast {
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-bottom: 0.8vw;
+}
+.timeOfEach {
+    font-size: 0.9vw;
+    font-weight: 400;
+}
+.country {
+    font-size: 1.3vw;
+    font-weight: 600;
+    width: 10vw;
+}
+.score {
+    font-size: 1.1vw;
+    font-weight: 800;
+    width: 5vw;
+}
+h2 {
+    color:rgb(255, 66, 66);
+    font-size: 1.5vw;
+    margin-bottom: 0.5vw;
+}

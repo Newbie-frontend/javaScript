@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: rgb(75, 72, 72);
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(4vw);
+    }
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardInfo {
+    font-weight: 700;
+}
+
+.divForItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19vw;
+    height: 12vw;
+    margin: 0 4vw
+}
+
+.card {
+    width: 15vw;
+    height: 10vw;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(196, 187, 187, 0.603);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.card:hover {
+    font-size: 1.7vw;
+    width: 17vw;
+    height: 12vw;
+    background-color: rgb(231, 201, 226);
+
+}
+
+.introduction {
+    height: 12vw;
+    margin: 2vw auto;
+}
+
+.jobs {
+    justify-content: start;
+    position: relative;
+    background-color: rgb(231, 201, 226);
+    height: 5vw;
+    padding-left: 1vw;
+    margin-bottom: 2vw;
+}
+
+.content {
+    position: absolute;
+}
+
+.contentDiv {
+    animation: slideIn 2s ease-in-out;
+    animation-fill-mode: forwards;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.teachItems {
+    font-size: 3vw;
+    font-weight: 700;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+
+
+h1 {
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grey {
+    color: rgb(95, 95, 95);
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.backgroundGrey {
+    background-color: rgb(245, 245, 245);
+}
+
+.orange {
+    color: rgb(255, 165, 0);
+}
+
+.headerStyle {
+    text-align: center;
+    height: 8.5vw;
+    padding: 1vw 0;
+}
+
+.headerStyle h4 {
+    font-size: 2.5vw;
+    font-weight: normal;
+    letter-spacing: 0.2vw;
+}
+
+.searchBox {
+    margin-bottom: 1vw;
+}
+
+.inputClass {
+    width: 50vw;
+    height: 3vw;
+    border: 1px solid rgb(95, 95, 95);
+    margin: 1vw 0 2vw;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+    padding-left: 2vw;
+    letter-spacing: 0.075vw;
+}
+
+.inputClass:focus {
+    outline: none;
+}
+
+.button {
+    background-color: rgb(255, 165, 0);
+    border: none;
+    padding: 1vw 0 1vw 2.5vw;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.7vw;
+    font-weight: 800;
+    margin: 1vw 0;
+    cursor: pointer;
+    border-radius: 2vw;
+    width: 11vw;
+    margin: 0 0.7vw;
+}
+
+.button:first-child {
+    padding: 1vw 2vw 1vw 3.8vw;
+}
+
+.button:nth-child(2) {
+    padding: 1vw 2vw 1vw 3.5vw;
+}
+
+.button i {
+    margin: 0 0.5vw;
+    font-weight: 900;
+    font-size: 1vw;
+}
+.aLink {
+    text-decoration: none;
+}
+
+.digramButton {
+    font-size: 2.5vw;
+    background-color: transparent;
+    border: none;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+.countriesBox {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.country-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+    width: 15vw;
+    height: 18vw;
+    background-color: white;
+    padding: 0.5vw 1.5vw;
+    margin: 1vw 0.73vw;
+}
+
+.imgStyle {
+    width: 10vw;
+    height: 5vw;
+    margin-bottom: 1vw;
+}
+
+.cName {
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+}
+
+.info {
+    font-size: 1vw;
+    line-height: 1.5vw;
+    font-weight: 500;
+}
+
+.footerClass {
+    justify-content: space-around;
+    height: 7vw;
+    margin-top: 1vw;
+
+
+}
+
+#footerToHeader {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2vw;
+    padding: 0.5vw 1vw;
+}
+
+
+.buttonG {
+    background-color: #ffa500;
+    border: none;
+    border-radius: 2vw;
+    padding: 0.8vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.1vw;
+    font-size: 0.9vw;
+    font-weight: 600;
+    margin: 0 0.2vw;
+    cursor: pointer;
+    color: #635858;
+}
+
+.graph-buttons {
+    margin: 1.3vw 0 0;
+}
+
+.graph-buttons {
+    margin: 1.3vw 0 0;
+}
+
+.graph-title {
+    margin: 1vw 0;
+    text-align: center;
+}
+
+.wrapper {
+    flex-direction: column;
+}
+
+.graph-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.graphs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1vw 0;
+}
+
+.elementClass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2.5vw;
+    margin: 0.5vw 0;
+}
+
+.middleElementClass {
+    height: 2.2vw;
+    background-color: #ffa500;
+}
+
+.middleInner {
+    display: flex;
+    justify-content: start;
+    width: 40vw;
+}
+
+.leftElement {
+    width: 15vw;
+}
+
+.rightElement {
+    width: 12vw;
+    margin-left: 2.5vw;
+}

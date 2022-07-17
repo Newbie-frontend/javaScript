@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./validatingStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Validating Web Forms</h2>
+        </div>
+        <div class="content">
+            <form>
+                <div class="form-group">
+                    <label for="name">First Name</label>
+                    <input type="text" class="form-control" id="first-name" name="name" placeholder="Enter First Name">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="name">Last Name</label>
+                    <input type="text" class="form-control" id="last-name" name="name" placeholder="Enter Last Name">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="text">Email</label> <!-- for check type is text -->
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Enter Email">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" name="password"
+                        placeholder="Enter Password">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telephone</label>
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter Telephone">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="bio">Your bio</label>
+                    <input type="text" class="form-control" id="bio" name="bio" placeholder="Enter Your Bio">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <script src="./main.js"></script>
+</body>
+
+</html>

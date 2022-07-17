@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>30DaysOfJavaScript:30 </title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/5f773bc09b.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="grey" id="goToTop">
+    <header class="backgroundGrey headerStyle flex flex-direction-column">
+        <h4 class="orange">World Countries Data</h4>
+        <p class="subtitle">Currently, we have <span id="countiresLen"></span> countries</p>
+        <p class="satisfy orange"></p>
+    </header>
+    <div class="searchBox flex justify-content-center align-items-center flex-direction-column">
+        <input class="inputClass grey" type="text">
+        <div class="buttons flex justify-content-center align-items-center">
+            <button class="button nameButton grey">NAME</button>
+            <button class="button capitalButton grey">CAPITAL</button>
+            <button class="button populationButton grey">POPULATION</button>
+            <button class="digramButton flex justify-content-center align-items-center orange">
+                <a href="#toGraph" class="aLink"><i class="fa-solid fa-chart-column orange"></i></a>
+            </button>
+
+        </div>
+    </div>
+    <div class="countriesBox"></div>
+
+    <div class="wrapper flexJA" id="toGraph">
+        <div class="graph-buttons flex justify-content-center align-items-center">
+            <button class="population buttonG">POPULATION</button>
+            <button class="languages buttonG">LANGUAGES</button>
+        </div>
+        <h4 class="graph-title"></h4>
+        <div class="graphs backgroundGrey">
+            <div class="graph-wrapper" id="stat"></div>
+        </div>
+    </div>
+
+
+    <footer class="footerClass flex align-items-center backgroundGrey">
+        <p class="footerText">&copy; 2020 30DaysOfJavaScript</p>
+        <a href="#goToTop"><button id="footerToHeader"><i class="fa-solid fa-arrow-up orange"></i></button></a>
+    </footer>
+
+    <script src="./data/countries_data_old.js"></script>
+    <script src="./scripts/main.js"></script>
+
+</body>
+
+</html>

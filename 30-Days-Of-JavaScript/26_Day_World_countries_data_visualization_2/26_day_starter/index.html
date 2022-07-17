@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title> World Countries List</title>
+	<script src="https://kit.fontawesome.com/5f773bc09b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="searchBoxContainer">
+		<h1 id="header1">WORLD COUNTRIES LIST</h1>
+		<h2 class="header2">Total Number Of Countries: <span id="CountriesLen"></span></h2>
+		<div class="description"></div>
+		<div class="buttons">
+			<button class="starting buttonStyle">Starting Word</button>
+			<button class="containing buttonStyle">Search With Any Word</button>
+			<button class="makeReverse buttonStyle"><i class="fa-solid fa-arrow-down-a-z"></i></button>
+		</div>
+		<div class="inputSearchButton">
+			<input type="text" class="inputClass" id="search" placeholder="Search country ...">
+			<button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+		</div>
+	</div>
+	<div class="countries"></div>
+
+	<script src="./data/countries.js"></script>
+	<script src="./scripts/main.js"></script>
+
+</body>
+
+</html>

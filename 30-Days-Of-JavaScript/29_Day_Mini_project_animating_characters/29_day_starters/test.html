@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Execute the setInterval function
+        without delay the first time
+    </title>
+</head>
+
+<body>
+    <h1 style="color: green">
+        GeeksforGeeks
+    </h1>
+
+    <b>
+        Execute the setInterval function
+        without delay the first time
+    </b>
+
+    <p>
+        Click on the button to execute the
+        setInterval() function without delay.
+    </p>
+
+    <button onclick="startSetInterval()">
+        Start immediate setInterval
+    </button>
+
+    <script type="text/javascript">
+
+        function startSetInterval() {
+
+            let count = 1;
+
+            setInterval(function exampleFunction() {
+                console.log('Function Executed! ' + count);
+                count = count + 1;
+
+                return exampleFunction;
+            }(), 3000);
+        }
+        setInterval(function hello() {
+            console.log('world');
+            return hello;
+        }(), 5000);
+    </script>
+</body>
+
+</html>
